@@ -1,0 +1,25 @@
+{
+  "name": "node-dock",
+  "version": "0.1.0",
+  "description": "just test the docker for node",
+  "main": "./src/index.js",
+  "bin": "./bin/index.js",
+  "scripts": {
+    "start": "node ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/appletxm/node-docker.git",
+    "issue": "https://github.com/appletxm/node-docker/issues"
+  },
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "node js api",
+    "nodejs https",
+    "https server",
+    "docker for node"
+  ]
+}
