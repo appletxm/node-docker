@@ -30,3 +30,4 @@ openssl x509 -req -in ca.csr -signkey ca.key -out ca.crt
 3、default machine with IP 192.168.99.100  docker/tcuser
 
 docker-machine ssh default
+docker push 注册用户名/镜像名

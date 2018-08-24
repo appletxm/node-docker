@@ -28,11 +28,11 @@ app.get('/', function (req, res) {
     res.send('http require')
   }
 })
-httpServer.listen(3000, '127.0.0.1', function () {
-  console.log('HTTP Server is running at http://127.0.0.1:3000')
+httpServer.listen(3000, function () {
+  console.log('HTTP Server is running at http://localhost:3000')
 })
-httpsServer.listen(3001, '127.0.0.1', function () {
-  console.log('HTTPS Server is running at https://127.0.0.1:3001')
+httpsServer.listen(3001, function () {
+  console.log('HTTPS Server is running at https://localhost:3001')
 })
 
 // var https = require('https')
