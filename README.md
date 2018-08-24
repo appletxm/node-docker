@@ -22,3 +22,11 @@ openssl req -new -key ca.key -out ca.csr
 openssl x509 -req -in ca.csr -signkey ca.key -out ca.crt  
 //这里是通过把CA的csr文件用私钥进行签名，最后生成一个证书的过程，证书名字为ca.crt 
 ```
+
+
+###docker
+1、在Windows的系统环境添加MACHINE_STORAGE_PATH ，指向虚拟机的位置（我推荐D:\VM\machines）
+2、复制boot2docker.iso到虚拟机的位置同级目录cache上（D:\VM\cache），如果不是最新的话需要下载最新。
+3、default machine with IP 192.168.99.100  docker/tcuser
+
+docker-machine ssh default
